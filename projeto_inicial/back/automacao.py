@@ -11,5 +11,5 @@ for i in range(40):
 
 df = pd.DataFrame(dados)
 
-df.to_csv("dados_vendas.csv", index=False)
+df.to_csv("date/dados_vendas.csv", index=False)
 print("Automação finalizada, arquivo gerado!")
