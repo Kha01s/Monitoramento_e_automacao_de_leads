@@ -5,7 +5,7 @@ st.set_page_config(page_title="Dashboard de VENDAS", layout="wide")
 st.title("Dashboard de Performance")
 
 try:
-    df = pd.read_csv("dados_vendas.csv")
+    df = pd.read_csv("date/dados_vendas.csv")
 
     total_leads = df["Leads"].sum()
     media_leads = df["Leads"].mean()
